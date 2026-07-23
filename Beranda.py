@@ -59,11 +59,7 @@ st.sidebar.info(
 st.title("Dashboard Forecast USDIDR Metode GRU")
 st.markdown(
     """
-Selamat datang di dashboard interaktif **forecasting nilai tukar USD/IDR**
-menggunakan model **GRU (Gated Recurrent Unit)**. Dashboard ini mereplikasi
-pipeline notebook training asli — mulai dari pembersihan data, feature
-engineering (lag & moving average), hingga pelatihan dan evaluasi model —
-dan membungkusnya menjadi aplikasi yang bisa dieksplorasi secara interaktif.
+Dashboard ini merupakan hasil kerja kelompok USDIDR-FORECAST, yaitu web untuk melakukan forecasting nilai tukar Rupiah terhadap Dolar Amerika (USD/IDR), serta prediksi harga emas (Gold) dan minyak (Oil) menggunakan metode Gated Recurrent Unit (GRU). Metode GRU dipilih karena memiliki struktur yang lebih sederhana dibandingkan LSTM maupun Hybrid ARIMA-LSTM/XGBoost, sehingga proses pelatihan menjadi lebih cepat dengan kebutuhan komputasi yang lebih rendah. Meskipun lebih ringan, GRU tetap mampu menangkap pola temporal pada data time series secara efektif dan memberikan performa prediksi yang baik, sehingga cocok digunakan untuk analisis dan forecasting data keuangan.
 """
 )
 
