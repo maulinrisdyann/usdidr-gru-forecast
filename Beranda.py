@@ -49,7 +49,7 @@ st.sidebar.info(
     "- **Analisis Data** — grafik historis GOLD, OIL, dll\n"
     "- **Training Model** — tahapan & proses pelatihan GRU\n"
     "- **Prediksi & Forecast** — forecast USDIDR N hari ke depan\n"
-    "- **Simulasi Interaktif** — what-if scenario real-time"
+    "- **Simulasi** — what-if scenario real-time"
 )
 
 # ==========================================================
