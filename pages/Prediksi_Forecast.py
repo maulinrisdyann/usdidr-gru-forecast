@@ -33,11 +33,11 @@ model, feature_scaler, target_scaler, features, time_steps = model_bundle
 
 last_row = df.iloc[-1]
 
-st.write(
-    f"Data historis terakhir: {last_row['Date'].date()} — "
-    f"USDIDR: Rp {last_row['USDIDR']:,.0f}, "
-    f"GOLD: ${last_row['GOLD']:,.2f}, "
-    f"OIL: ${last_row['OIL']:,.2f}"
+st.markdown(
+    f"Data historis terakhir: **{last_row['Date'].date()}** — "
+    f"USDIDR: **Rp {last_row['USDIDR']:,.0f}**, "
+    f"GOLD: **\\${last_row['GOLD']:,.2f}**, "
+    f"OIL: **\\${last_row['OIL']:,.2f}**"
 )
 
 st.markdown("---")
