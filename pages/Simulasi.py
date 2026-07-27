@@ -110,7 +110,7 @@ fig_gauge.update_layout(height=350)
 st.plotly_chart(fig_gauge, use_container_width=True)
 
 st.markdown("---")
-st.subheader("💱 Konverter Cepat")
+st.subheader("Konverter Cepat")
 amount_usd = st.number_input("Jumlah USD", min_value=0.0, value=100.0, step=10.0)
 cc1, cc2 = st.columns(2)
 cc1.metric("Konversi (Baseline)", f"Rp {amount_usd * pred_base:,.0f}")
