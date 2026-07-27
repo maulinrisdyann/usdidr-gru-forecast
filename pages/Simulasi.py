@@ -5,8 +5,8 @@ import streamlit as st
 
 from utils.model_utils import artifacts_exist, load_artifacts
 
-st.set_page_config(page_title="Simulasi Interaktif", page_icon="🎮", layout="wide")
-st.title("Simulasi Interaktif: What-If Scenario")
+st.set_page_config(page_title="Simulasi What-If", page_icon="🎮", layout="wide")
+st.title("Simulasi What-If Scenario")
 
 st.markdown(
     "Geser slider di bawah untuk mengubah kondisi pasar **hari ini** secara "
